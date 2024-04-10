@@ -52,3 +52,31 @@ end
 puts sentence
 puts longest_word
 
+#################################################
+# Problem 3
+
+persons = [                                             # persons.length = 3
+    { first_name: 'Norm', last_name: 'McDonald' },      # i = 0         persons[0]
+    { first_name: 'Garrison', last_name: 'Harrison' },  # i = 1         persons[1]
+    { first_name: 'Thomas', last_name: 'Banks' }        # i = 2         persons[2]
+]
+
+pp persons
+
+i = 0
+while (i < persons.length)
+    puts "Hi, my name is " + persons[i][:first_name] + " " + persons[i][:last_name]
+    i = i + 1
+end
+
+# pp persons[0]
+# i = 0 + 1
+
+# pp persons[1]
+# i = 1 + 1
+
+# pp persons[2]
+# i = 2 + 1
+
+# pp persons[3]
+# i = 3 + 1
